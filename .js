@@ -15,6 +15,10 @@ setInterval(()=>{
         time.h++;
         if(time.h/10<1)document.body.querySelector(".hour").replaceChildren(`${0}${time.h}`);
         else document.body.querySelector(".hour").replaceChildren(time.h);
+        
+        if(time.m/10<1)document.body.querySelector(".min").replaceChildren(`${0}${time.m}`);
+        else document.body.querySelector(".min").replaceChildren(time.m);
+        
     }
     if(time.s/10<1)document.body.querySelector(".sec").replaceChildren(`${0}${time.s}`);
     else document.body.querySelector(".sec").replaceChildren(time.s);
