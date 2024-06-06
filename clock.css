@@ -1,0 +1,43 @@
+.body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+.clock{
+    /* position: fixed; */
+    background-color: rgb(7, 5, 97);
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.date{
+    width: 199px;
+    margin: auto;
+    font-weight: 800;
+    font-size: 30px;
+}
+.time{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.time >div{
+    border: 2px solid rgb(3, 3, 250);
+    width: 50px;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 1px;
+    background-color: rgba(0, 0, 0, 0.71);
+    text-align: center;
+}
+.day{
+    width: 140px;
+    font-size: 30px;
+    /* background-color: yellow; */
+    margin: auto;
+}
